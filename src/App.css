@@ -1,0 +1,67 @@
+/* src/App.css */
+
+
+.btn-primary {
+  background-color: #5e1b89;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12.5px 20px; /* Adjust padding to make the button bigger */
+  font-size: 14px; /* Increase font size */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.btn-primary:hover {
+  background-color: #45116e; /* Darker shade of purple */
+
+}
+
+.btn-save {
+  background-color: #45116e;
+  color: white; /* Change text color to #45116e */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px; /* Adjust padding to make the button bigger */
+  font-size: 14px; /* Increase font size */
+  border: 2px solid #45116e; 
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.btn-save:hover {
+  background-color: #170624; /* Darker shade of purple */
+  color: white; /* Change text color to white on hover */
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #F4512C;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px; /* Adjust padding to make the button bigger */
+  font-size: 14px; /* Increase font size */
+  border: 2px solid #F4512C; /* Green */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.btn-secondary:hover {
+  background-color: #F4512C;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through; /* Add strike-through effect for completed todos */
+}
+
+.container h1 {
+  color: #F4512C;
+  text-align: center; /* Center align text within header */
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+
+.list-group-item div {
+  color: #45116e;
+}
